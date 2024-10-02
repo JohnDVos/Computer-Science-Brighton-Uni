@@ -1,0 +1,8 @@
+/*inserts 5 cells of data into truck*/
+INSERT INTO tbl_truck(truck_ID, truck_VIN)
+VALUES
+('YUM1', 'D4T4B4SES1SH4RD45'),
+('YUM2', 'MAGICCHEESEB00T1E'),
+('YUM3', 'G4RL1CBR34DSTICK5'),
+('YUM4', 'H1DDENM3SS4G3SYUP'),
+('YUM5', '1TH1NK1MSOFUNNYH4');

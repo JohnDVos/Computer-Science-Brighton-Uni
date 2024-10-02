@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=BIO
+comment0.text=\r\n\ \ To\ use\ in\ a\ BlueJ\ project\r\n\ \ Create\ a\ class\ called\ BIO\r\n\ \ \ containing\ the\ contents\ of\ this\ file\r\n
+comment1.params=
+comment1.target=int\ getCharX()
+comment2.params=
+comment2.target=int\ getChar()
+comment3.params=
+comment3.target=boolean\ eof()
+comment3.text=\r\n\ Return\ true\ if\ have\ reached\ EOF\r\n\ @return\ true\ if\ End\ Of\ File/Input\r\n
+comment4.params=
+comment4.target=java.lang.String\ getLineBASE()
+comment5.params=
+comment5.target=java.lang.String\ getLine()
+comment6.params=
+comment6.target=java.lang.String\ getString()
+comment6.text=\r\n\ Return\ the\ next\ input\ line\ as\ a\ String\r\n\ @return\ the\ next\ line\ of\ input\r\n
+comment7.params=
+comment7.target=double\ getDouble()
+comment7.text=\r\n\ return\ as\ a\ double\ the\ number\ on\ the\ next\ input\ line.\r\n\ If\ malformed\ return\ 0.0\r\n\ @return\ the\ next\ number\ read\ as\ a\ double\r\n
+comment8.params=
+comment8.target=int\ getInt()
+comment8.text=\r\n\ return\ as\ an\ int\ the\ number\ on\ the\ next\ input\ line.\r\n\ If\ malformed\ return\ 0\r\n\ @return\ the\ next\ number\ read\ as\ an\ int\r\n
+numComments=9

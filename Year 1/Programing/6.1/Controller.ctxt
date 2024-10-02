@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Controller
+comment0.text=\r\n\ Deal\ with\ DiaryGUI\ interactions\ from\ user\r\n
+comment1.params=aModelOfDiary\ aViewOfDiary
+comment1.target=Controller(ModelOfDiary,\ ViewOfDiary)
+comment2.params=buttonName\ message
+comment2.target=void\ process(java.lang.String,\ java.lang.String)
+comment3.params=
+comment3.target=void\ close()
+numComments=4

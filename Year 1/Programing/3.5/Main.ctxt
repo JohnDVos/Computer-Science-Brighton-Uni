@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=Main
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=line
+comment2.target=int\ countSpaces(java.lang.String)
+comment3.params=line\ num
+comment3.target=java.lang.String\ stringOfSpaces(java.lang.String,\ int)
+comment4.params=line\ width
+comment4.target=java.lang.String\ stringOfSpacesMoreThanWidth(java.lang.String,\ int)
+comment5.params=line\ extra
+comment5.target=java.lang.String\ addExtraSpaces(java.lang.String,\ int)
+comment6.params=line\ width
+comment6.target=java.lang.String\ reformat(java.lang.String,\ int)
+numComments=7

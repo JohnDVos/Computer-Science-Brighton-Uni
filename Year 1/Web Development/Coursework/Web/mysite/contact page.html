@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<!--HTML5 doctype declaration -->
+<html lang="en"><!--default language of the document content -->
+    <head>
+		<meta charset="utf-8">
+    	<!--character encoding for the document (Unicode) -->
+		<title>Contact Information:</title>
+        <meta name="viewpoint" content="width=device-width, initial-scale=1">
+    <link href="css/normalize.css" rel="stylesheet" type="text/css">
+    <link href="css/StylesheetContact.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.google.com/specimen/Anton' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   	 	<!--web page title -->
+	</head>
+    
+<body>
+    
+<!--Write web page content and markup within the 'body' tags -->
+	<div id="wrapper">
+        <a id="top"></a>
+	<!--The 'wrapper' div contains all the page content and can be styled -->
+        
+    <header>
+	<!--The main heading for the page -->
+      <h1>Feedback and Contact Information:</h1>
+	</header>
+        
+<nav class="menu" id="myMenu">
+        <a href="contact%20page.html" class="active">Feedback Form:</a>
+        <a href="index.html" >Learning Journal:</a>
+        <a href="guide.html" >Brighton Palace Pier:</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+</nav>
+<script>
+    function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+    x.className += " responsive";
+    } else {
+    x.className = "topnav";
+    }
+    }
+</script>
+        
+    <main>
+        <article>
+            
+        <form action="mailto:j.vos1@uni.brighton.ac.uk" method="post" enctype="text/plain">
+            <fieldset>
+                <legend><u>Personal Information:</u></legend>
+                  <u>First Name</u>:<br>
+                   <input type="text" name="firstname">
+                    <br> <br>
+                   <u>Last Name:</u><br>
+                    <input type="text" name="lastname">
+                    <br> <br>
+                <u>Gender:</u><br>
+                <input type="radio" name="gender" value="male">Male<br>
+                <input type="radio" name="gender" value="female"> Female<br>
+                <input type="radio" name="gender" value="other"> Other<br><br>
+                </fieldset>
+            
+            <br>
+            
+                <fieldset>
+                    <legend><u>Feedback:</u></legend>
+                      <u>Page:</u><br>   
+                        <select name="pages">
+                            <option disabled selected value> -- select an option -- </option> 
+                            <option value="Learning Journal">Learning Journal</option>
+                            <option value="Brighton Palace Pier Guide">Brighton Palace Pier Guide</option>
+                            <option value="Feedback Page">Feedback Page</option>
+                            <option value="All Pages">All Pages</option>
+                        </select><br><br>
+                  <u>Feedback Comments:</u><br>
+                    <textarea id="message" required class="feedback"></textarea>
+                </fieldset>
+            
+            <br>
+            
+                <fieldset>
+                    <legend><u>Page Ratings</u></legend>
+                        <div class="row">
+                            <div class="column">
+                                <h2>Learning Journal:</h2>
+                                <p>Layout:</p>
+                                    <select name="pages">
+                                        <option disabled selected value> -- select an option -- </option>
+                                        <option value="0">0</option>
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                        <option value="6">6</option>
+                                        <option value="7">7</option>
+                                        <option value="8">8</option>
+                                        <option value="9">9</option>
+                                        <option value="10">10</option>
+                                        </select>
+                                <p>Readability:</p>
+                                    <select name="pages">
+                                        <option disabled selected value> -- select an option -- </option>
+                                        <option value="0">0</option>
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                        <option value="6">6</option>
+                                        <option value="7">7</option>
+                                        <option value="8">8</option>
+                                        <option value="9">9</option>
+                                        <option value="10">10</option>
+                                        </select>
+                                <p>Content:</p>
+                                    <select name="pages">
+                                        <option disabled selected value> -- select an option -- </option>
+                                        <option value="0">0</option>
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                        <option value="6">6</option>
+                                        <option value="7">7</option>
+                                        <option value="8">8</option>
+                                        <option value="9">9</option>
+                                        <option value="10">10</option>
+                                        </select>
+                                <p>Website Quality:</p>
+                                    <select name="pages">
+                                        <option disabled selected value> -- select an option -- </option>
+                                        <option value="0">0</option>
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                        <option value="6">6</option>
+                                        <option value="7">7</option>
+                                        <option value="8">8</option>
+                                        <option value="9">9</option>
+                                        <option value="10">10</option>
+                                        </select>
+                            </div>
+                            <div class="column">
+                                <h2>Brighton Pier:</h2>
+                                <p>Layout:</p>
+                                    <select name="pages">
+                                        <option disabled selected value> -- select an option -- </option>
+                                        <option value="0">0</option>
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                        <option value="6">6</option>
+                                        <option value="7">7</option>
+                                        <option value="8">8</option>
+                                        <option value="9">9</option>
+                                        <option value="10">10</option>
+                                        </select>
+                                <p>Readability:</p>
+                                    <select name="pages">
+                                        <option disabled selected value> -- select an option -- </option>
+                                        <option value="0">0</option>
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                        <option value="6">6</option>
+                                        <option value="7">7</option>
+                                        <option value="8">8</option>
+                                        <option value="9">9</option>
+                                        <option value="10">10</option>
+                                        </select>
+                                <p>Content:</p>
+                                    <select name="pages">
+                                        <option disabled selected value> -- select an option -- </option>
+                                        <option value="0">0</option>
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                        <option value="6">6</option>
+                                        <option value="7">7</option>
+                                        <option value="8">8</option>
+                                        <option value="9">9</option>
+                                        <option value="10">10</option>
+                                        </select>
+                                <p>Website Quality:</p>
+                                    <select name="pages">
+                                        <option disabled selected value> -- select an option -- </option>
+                                        <option value="0">0</option>
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                        <option value="6">6</option>
+                                        <option value="7">7</option>
+                                        <option value="8">8</option>
+                                        <option value="9">9</option>
+                                        <option value="10">10</option>
+                                        </select>
+                            </div>
+                            <div class="column">
+                                <h2>Feedback Page:</h2>
+                                <p>Layout:</p>
+                                    <select name="pages">
+                                        <option disabled selected value> -- select an option -- </option>
+                                        <option value="0">0</option>
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                        <option value="6">6</option>
+                                        <option value="7">7</option>
+                                        <option value="8">8</option>
+                                        <option value="9">9</option>
+                                        <option value="10">10</option>
+                                        </select>
+                                <p>Readability:</p>
+                                    <select name="pages">
+                                        <option disabled selected value> -- select an option -- </option>
+                                        <option value="0">0</option>
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                        <option value="6">6</option>
+                                        <option value="7">7</option>
+                                        <option value="8">8</option>
+                                        <option value="9">9</option>
+                                        <option value="10">10</option>
+                                        </select>
+                                <p>Content:</p>
+                                    <select name="pages">
+                                        <option disabled selected value> -- select an option -- </option>
+                                        <option value="0">0</option>
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                        <option value="6">6</option>
+                                        <option value="7">7</option>
+                                        <option value="8">8</option>
+                                        <option value="9">9</option>
+                                        <option value="10">10</option>
+                                        </select>
+                                <p>Website Quality:</p>
+                                    <select name="pages">
+                                        <option disabled selected value> -- select an option -- </option>
+                                        <option value="0">0</option>
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                        <option value="6">6</option>
+                                        <option value="7">7</option>
+                                        <option value="8">8</option>
+                                        <option value="9">9</option>
+                                        <option value="10">10</option>
+                                        </select>
+                            </div>
+                        </div> 
+                </fieldset>
+            
+            <br>
+            
+            <input type="submit" value="submit">
+                    
+                    </form>  
+                </article>
+        
+            </main> <!--Close main page content -->
+       
+         <aside>
+        <h4>References:</h4>
+            <ol>
+                <li><a href="https://www.w3schools.com/html/html_forms.asp" target="_blank">HTLM forms:</a> </li>
+                <li><a href="https://www.w3schools.com/css/css_form.asp" target="_blank">Styling forms in CSS:</a></li>
+                <li><a href="https://stackoverflow.com/questions/8605516/default-select-option-as-blank" target="_blank">First option drop down menu = blank:</a></li>
+                <li><a href="https://www.w3schools.com/css/css_form.asp" target="_blank">Styling HTLM forms:</a></li>
+                <li><a href="https://www.w3schools.com/howto/howto_css_two_columns.asp" target="_blank">How to add columns:</a></li>
+            </ol>
+        </aside>
+        
+        <div class="clear"></div>
+        
+    <footer>
+	<!--Footer content -->
+        <a href="mailto:j.vos1@uni.brighton.ac.uk" target="_blank">Email John Vos</a>
+        <small>© 2017, author.</small><br>
+        <small>Background Copyright © WallpaperCave 2014 - 2018. All Right Reserved.</small>
+	</footer>
+    
+         
+	</div>
+<!--Close 'wrapper' div -->
+
+</body><!--Close 'body' --></html>

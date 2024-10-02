@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=ModelOfTM
+comment0.text=\r\n\ \ \ Model\ of\ a\ ticket\ machine\r\n
+comment1.params=
+comment1.target=ModelOfTM()
+comment2.params=
+comment2.target=java.lang.String\ getDisplay1()
+comment2.text=\r\n\ Return\ the\ message\ for\ area\ 1\ in\ the\ display\r\n\ @return\ The\ message\ for\ area\ 1\r\n
+comment3.params=
+comment3.target=java.lang.String\ getDisplay2()
+comment3.text=\r\n\ Return\ the\ message\ for\ area\ 2\ in\ the\ display\r\n\ @return\ The\ message\ for\ area\ 2\r\n
+comment4.params=too\ price
+comment4.target=void\ setDestination(java.lang.String,\ int)
+comment5.params=button
+comment5.target=void\ process(java.lang.String)
+comment5.text=\r\n\ Process\ a\ transaction\ on\ the\ model\ of\ the\ ticket\ machine\r\n\ @param\ button\ The\ action\ requested\r\n
+numComments=6

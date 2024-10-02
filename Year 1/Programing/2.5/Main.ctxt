@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Main
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=amount\ coins\ result
+comment2.target=void\ showResult(int,\ int,\ java.lang.String)
+comment3.params=input
+comment3.target=boolean\ getValidInput(int)
+numComments=4

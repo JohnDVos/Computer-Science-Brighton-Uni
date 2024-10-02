@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=Logic
+comment1.params=calculator
+comment1.target=Logic(Calculator)
+comment2.params=button
+comment2.target=java.lang.String\ process(java.lang.String)
+comment3.params=
+comment3.target=long\ getResult()
+comment4.params=
+comment4.target=long\ getNumber()
+numComments=5

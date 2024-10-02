@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=Counter
+comment1.params=
+comment1.target=long\ getValue()
+comment1.text=\r\n\ Return\ the\ current\ value\ of\ the\ counter\r\n\ @return\ The\ value\ of\ the\ counter\r\n
+comment2.params=
+comment2.target=void\ reset()
+comment2.text=\r\n\ Reset\ the\ counter\ to\ zero\r\n
+comment3.params=
+comment3.target=void\ inc()
+comment3.text=\r\n\ Add\ 1\ to\ the\ counter\r\n
+comment4.params=
+comment4.target=void\ dec()
+comment4.text=\r\n\ Subtract\ 1\ from\ the\ counter\r\n
+comment5.params=
+comment5.target=void\ add5()
+comment5.text=\r\n\ Add\ 5\ to\ the\ counter\r\n
+comment6.params=
+comment6.target=void\ add10()
+comment6.text=\r\n\ Add\ 10\ to\ the\ counter\r\n
+numComments=7

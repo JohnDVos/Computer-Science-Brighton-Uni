@@ -1,0 +1,4 @@
+^ 		=	and
+upside dow ^ 	=	p imphis q
+not(P)		=	p => q
+imphis		=	-> or => 	

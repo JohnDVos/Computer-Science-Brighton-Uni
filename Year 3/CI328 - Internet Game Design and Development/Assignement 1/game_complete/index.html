@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name=viewport content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assets/style.css">
+      
+    <!-- load js files -->
+    <script src="js/gamemanager.js"></script>
+    <script src="js/player.js"></script>
+    <script src="js/enemy.js"></script>
+  </head>
+    
+  <body>
+
+    <div class="header">
+      <p>Welcome to my first JS based game</p>
+      <h2>Choose your character!</h2>
+    </div>
+      
+    <!--div interface is used to store all chosable / playable character types.-->s  
+    <div class="interface">
+        <a href="#" onclick="GameManager.setGameStart('Warrior')">
+            <img src="assets/avatar-player/warrior.png" alt="warrior">
+            <div>
+                <h3>Warrior</h3>
+                <p>As a warrior your main strength lies in your health and stamina abilities, however, your strength does make you slower than others.</p>
+            </div>
+        </a>
+        <a href="#" onclick="GameManager.setGameStart('Rogue')">
+            <img src="assets/avatar-player/rogue.png" alt="rogue">
+            <div>
+                <h3>Rogue</h3>
+                <p>As a Rogue your main strength lies in your speed and stamina abilities, however, you lack in strength and health.</p>
+            </div>
+        </a>
+        <a href="#" onclick="GameManager.setGameStart('Mage')">
+            <img src="assets/avatar-player/mage.png" alt="mage">
+            <div>
+                <h3>Mage</h3>
+                <p>As a mage your main strength lies in your spells, however, you find yourself lacking in all over aspects.</p>
+            </div>
+        </a>
+        <a href="#" onclick="GameManager.setGameStart('Hunter')">
+            <img src="assets/avatar-player/hunter.png" alt="hunter">
+            <div>
+                <h3>Hunter</h3>
+                <p>As a hunter your main strength lies not in one stat but you are a well all rounded fighter and do not excel at anything in particular.</p>
+            </div>
+        </a>
+        <a href="#" onclick="GameManager.setGameStart('Assassin')">
+            <img src="assets/avatar-player/assassin.png" alt="assassin">
+            <div>
+                <h3>Assassin</h3>
+                <p>As an assassin your training means you boast impressive agility and stamina, however, you lack in strength.</p>
+            </div>
+        </a>
+    </div>
+
+        
+    <div class="actions"></div>
+      
+    <div class="arena">
+        <img src="assets/arena-bg.png" alt="arena">
+    </div>
+
+    <div class="enemy">
+    </div>
+    
+
+  </body>
+    
+</html>
